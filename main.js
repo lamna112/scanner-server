@@ -19,12 +19,13 @@ app.use(function (error, req, res, next) {
 //}(app, web));
 
 socket(io);
+//test
 
-//启动webserver
+//脝么露炉webserver
 app.listen(config.webport, function () {
     console.log("web started at port ",config.webport)
 });
-//启动socketserver
+//脝么露炉socketserver
 server.listen(config.socketport, function () {
     console.log("socket started at port ",config.socketport)
 });
